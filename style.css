@@ -1,0 +1,180 @@
+
+body { 
+    background-color: rgb(253, 251, 251);
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header { 
+    min-height: 50px;
+}
+footer { 
+    min-height: 50px;
+}
+/*CONTEUDO INUTIL*/
+.img-bg { 
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1 { 
+    background-image: url('/imagens/bg.png');
+}
+
+/*CABEÇALHO*/
+#cabecalho { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #12162D;
+    height: 150px;
+    width: 100%;
+    z-index: 9998;
+}
+.textlock {
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    line-height: 0cm;
+    max-width: 500px;
+}
+#titulo { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 42px;
+    color: #2196F3;
+}
+#subtitle { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(187, 187, 187);
+    max-width: 500px;
+    font-size: 28px;
+}
+#nop {
+    text-decoration:line-through;
+}
+/*FIM DE CABEÇALHO*/
+
+
+#minha_foto { 
+    position: absolute;
+    border-radius: 50%;   
+    width: 10%;
+    left: 40px;
+    top: 10px;
+}
+
+/*Botões do menu lateral*/
+#menuLateral a { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    left: -130px;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+    z-index: 9997;
+}
+.iconMenu { 
+    width: 25px;
+    height: 25px;
+    float: right;
+    filter: invert(90%);
+}
+#menuLateral a:hover { 
+    left: 0;
+    opacity: 1;
+}
+#menuLateral a:active {
+    filter: saturate(0);
+}
+.inicio { 
+    top: 170px;
+    background-color: #2196F3;
+}
+.sobre { 
+    top: 230px;
+    background-color: rgb(185, 80, 180);
+}
+.conteudo { 
+    top: 290px;
+    background-color: #2196F3;
+}
+.contato { 
+    top: 350px;
+    background-color: #2196F3;
+}
+.refers { 
+    top: 410px;
+    background-color: #2196F3;
+}
+
+#contentBox { 
+    border: 5px solid violet;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+
+#corpo { 
+
+    top: 170px;
+    left: 200px;
+}
+.artigo {
+    max-width: 500;
+}
+
+#content { 
+    position: relative;
+    top: 100px;
+    background-color: yellow;
+    border: 5px solid azul;
+}
+
+.tituloDoArtigo { 
+    font-family: bangers, cursive;
+    font-size: 64px;
+    margin-top: 0px;
+}
+
+
+#rodape { 
+    position:relative;
+    border: 5px solid red;
+    color: rgb(253, 251, 251);
+    background-color: rgb(0, 29, 34);
+    height: 200px;
+    z-index: 9999;
+   /* display: none; */
+}
+
+/*LOGOMARCAS*/
+#boxlogo { 
+    border: 5px solid green;
+    right: 0;
+    top: 40px;
+    align-content: space-between;
+    align-items:center;
+    position: absolute;
+    max-width: 500px;
+}
+.trybe { 
+    width: 125px;
+    height: 50px;
+    float: right;
+
+}
+.xp { 
+    width: 90px;
+    height: 30px;
+    float: right;
+    margin-right: 40px;
+
+}
