@@ -1,51 +1,57 @@
-
-body { 
-    background-color: rgb(253, 251, 251);
-    min-height: 100vh;
-    margin: 0;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-header { 
-    min-height: 50px;
-}
-footer { 
-    min-height: 50px;
-}
-/*CONTEUDO INUTIL*/
-.img-bg { 
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img1 { 
-    background-image: url('/imagens/bg.png');
+body {
+  background-color: rgb(253, 251, 251);
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
-/*CABEÇALHO*/
-#cabecalho { 
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #12162D;
-    height: 150px;
-    width: 100%;
-    z-index: 9998;
+header {
+  min-height: 50px;
 }
+
+footer {
+  min-height: 50px;
+}
+
+/* CONTEUDO INUTIL */
+.img-bg {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url('/imagens/bg.png');
+}
+
+/* CABEÇALHO */
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #12162d;
+  height: 150px;
+  width: 100%;
+  z-index: 9998;
+}
+
 .textlock {
-    position: absolute;
-    top: 15px;
-    left: 200px;
-    line-height: 0cm;
-    max-width: 500px;
+  position: absolute;
+  top: 15px;
+  left: 200px;
+  line-height: 0cm;
+  max-width: 500px;
 }
-#titulo { 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-size: 42px;
-    color: #2196F3;
+
+#titulo {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-style: italic;
+  font-size: 42px;
+  color: #2196f3;
 }
+
 #subtitle { 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(187, 187, 187);
@@ -55,9 +61,6 @@ footer {
 #nop {
     text-decoration:line-through;
 }
-/*FIM DE CABEÇALHO*/
-
-
 #minha_foto { 
     position: absolute;
     border-radius: 50%;   
@@ -156,25 +159,21 @@ footer {
 }
 
 /*LOGOMARCAS*/
-#boxlogo { 
+.boxlogo { 
+    position: relative;
+    float: right;
+    clear: none;
     border: 5px solid green;
-    right: 0;
+    margin-right: 50px;
     top: 40px;
-    align-content: space-between;
-    align-items:center;
-    position: absolute;
     max-width: 500px;
 }
-.trybe { 
+#trybe { 
     width: 125px;
     height: 50px;
-    float: right;
-
 }
-.xp { 
+#xp { 
     width: 90px;
     height: 30px;
     float: right;
-    margin-right: 40px;
-
 }
