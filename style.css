@@ -100,12 +100,12 @@ footer {
 
 .inicio {
   top: 200px;
-  background-color: rgb(33, 150, 243);
+  background-color: rgb(185, 80, 180);
 }
 
 .sobre {
   top: 265px;
-  background-color: rgb(185, 80, 180);
+  background-color: rgb(33, 150, 243);
 }
 
 .conteudo {
@@ -141,28 +141,45 @@ footer {
 #corpo {
   top: 200px;
   left: 200px;
+  max-width: 1366px;
 }
 
-.artigo {
-  max-width: 650px;
-  margin-left: 170px;
-  color: rgb(241, 248, 255);
+#boxArtigo {
+  margin-bottom: 10px;
 }
 
-p {
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+  width: 20%
+}
+
+.me {
   font-family: monospace;
   font-size: 12pt;
   color: lavenderblush;
   text-align: justify;
 }
 
+#escondido {
+  visibility: hidden;
+}
+
 #about {
+  max-width: 650px;
+  margin-left: 170px;
+  color: rgb(241, 248, 255);
+  line-height: 20px;
   background-color: rgba(185, 80, 189, 0.85);
   padding: 25px;
   border-radius: 10px;
 }
 
 #content {
+  clear: both;
   position: relative;
   top: 100px;
   background-color: yellow;
@@ -192,7 +209,7 @@ p {
 /* RODAPÉ E REFERÊNCIAS */
 #rodape {
   position: relative;
-  border: 5px solid red;
+  border: 5px solid violet;
   color: rgb(253, 251, 251);
   background-color: rgb(0, 29, 34);
   height: 200px;
