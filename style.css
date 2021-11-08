@@ -18,7 +18,7 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  background: #0d1020;
+  background: rgb(13, 16, 32);
   height: 150px;
   width: 100%;
   z-index: 9998;
@@ -36,18 +36,18 @@ footer {
   font-family: mohave, sans-serif;
   font-style: italic;
   font-size: 54px;
-  color: #2196f3;
+  color: rgb(33, 150, 243);
 }
 
-#subtitle { 
-    font-family: monospace;
-    color: rgb(187, 187, 187);
-    max-width: 500px;
-    font-size: 18px;
+#subtitle {
+  font-family: monospace;
+  color: rgb(187, 187, 187);
+  max-width: 500px;
+  font-size: 18px;
 }
 
 #nop {
-    text-decoration:line-through;
+  text-decoration: line-through;
 }
 
 #photolock {
@@ -58,58 +58,66 @@ footer {
   max-width: 130px;
 }
 
-#minha_foto { 
-    border-radius: 50%;
-    width: 100%;
+#minha_foto {
+  border-radius: 50%;
+  width: 100%;
 }
 
-/*Botões do menu lateral*/
-#menuLateral a { 
-    font-family: mohave, sans-serif;
-    position: fixed;
-    left: -120px;
-    padding: 15px;
-    width: 140px;
-    text-decoration: none;
-    font-size: 20px;
-    color: whitesmoke;
-    opacity: 0.7;
-    transition: 0.3s;
-    border-radius: 0 5px 5px 0;
-    z-index: 9997;
+/* Botões do menu lateral */
+#menuLateral a {
+  font-family: mohave, sans-serif;
+  position: fixed;
+  left: -120px;
+  padding: 15px;
+  width: 140px;
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+  opacity: 0.7;
+  transition: 0.3s;
+  border-radius: 0 5px 5px 0;
+  z-index: 9997;
 }
-.iconMenu { 
-    width: 25px;
-    height: 25px;
-    float: right;
-    filter: invert(90%);
+
+.iconMenu {
+  width: 25px;
+  height: 25px;
+  float: right;
+  filter: invert(90%);
 }
-#menuLateral a:hover { 
-    left: 0;
-    opacity: 1;
+
+#menuLateral a:hover {
+  left: 0;
+  opacity: 1;
 }
+
 #menuLateral a:active {
-    filter: saturate(0);
+  filter: saturate(0);
 }
-.inicio { 
-    top: 170px;
-    background-color: #2196F3;
+
+.inicio {
+  top: 170px;
+  background-color: rgb(33, 150, 243);
 }
-.sobre { 
-    top: 230px;
-    background-color: rgb(185, 80, 180);
+
+.sobre {
+  top: 230px;
+  background-color: rgb(185, 80, 180);
 }
-.conteudo { 
-    top: 290px;
-    background-color: #2196F3;
+
+.conteudo {
+  top: 290px;
+  background-color: rgb(33, 150, 243);
 }
-.contato { 
-    top: 350px;
-    background-color: #2196F3;
+
+.contato {
+  top: 350px;
+  background-color: rgb(33, 150, 243);
 }
-.refers { 
-    top: 410px;
-    background-color: #2196F3;
+
+.refers {
+  top: 410px;
+  background-color: rgb(33, 150, 243);
 }
 
 .videoIntro {
@@ -118,69 +126,71 @@ footer {
   z-index: 1;
 }
 
-#contentBox { 
+#contentBox {
   position: relative;
-  margin-top: 170px;  
+  margin-top: 170px;
   margin-left: 0;
   z-index: 9996;
 }
 
-#corpo { 
+#corpo {
+  top: 170px;
+  left: 200px;
+}
 
-    top: 170px;
-    left: 200px;
-}
 .artigo {
-    max-width: 500px;
-    margin-left: 170px;
-    color: white;
+  max-width: 500px;
+  margin-left: 170px;
+  color: white;
 }
+
 #about {
   background-color: rgba(185, 80, 189, 0.75);
   padding: 25px;
   border-radius: 10px;
 }
 
-#content { 
-    position: relative;
-    top: 100px;
-    background-color: yellow;
-    border: 5px solid azul;
+#content {
+  position: relative;
+  top: 100px;
+  background-color: yellow;
 }
 
-.tituloDoArtigo { 
-    font-family: bangers, cursive;
-    font-size: 64px;
-    margin-top: 0px;
+.tituloDoArtigo {
+  font-family: bangers, cursive;
+  font-size: 42pt;
+  margin-top: 0;
 }
 
+#rodape {
+  position: relative;
+  border: 5px solid red;
+  color: rgb(253, 251, 251);
+  background-color: rgb(0, 29, 34);
+  height: 200px;
+  z-index: 9999;
 
-#rodape { 
-    position:relative;
-    border: 5px solid red;
-    color: rgb(253, 251, 251);
-    background-color: rgb(0, 29, 34);
-    height: 200px;
-    z-index: 9999;
-   /* display: none; */
+  /* display: none; */
 }
 
-/*LOGOMARCAS*/
-.boxlogo { 
-    position: relative;
-    float: right;
-    clear: none;
-    border: 5px solid green;
-    margin-right: 50px;
-    top: 40px;
-    max-width: 500px;
+/* LOGOMARCAS */
+.boxlogo {
+  position: relative;
+  float: right;
+  clear: none;
+  border: 5px solid green;
+  margin-right: 50px;
+  top: 40px;
+  max-width: 500px;
 }
-#trybe { 
-    width: 125px;
-    height: 50px;
+
+#trybe {
+  width: 125px;
+  height: 50px;
 }
-#xp { 
-    width: 90px;
-    height: 30px;
-    float: right;
+
+#xp {
+  width: 90px;
+  height: 30px;
+  float: right;
 }
