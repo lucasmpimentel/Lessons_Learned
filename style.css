@@ -20,8 +20,8 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgb(13, 16, 32);
-  height: 150px;
+  background-image: linear-gradient(black, black, black, transparent);
+  height: 200px;
   width: 100%;
   z-index: 9998;
 }
@@ -61,19 +61,20 @@ footer {
 }
 
 #minha_foto {
+  border: 3px solid rgb(33, 150, 243);
   border-radius: 50%;
   width: 100%;
 }
 
 /* Botões do menu lateral */
-#menuLateral a {
+.menuLateral {
   font-family: mohave, sans-serif;
   position: fixed;
-  left: -120px;
+  left: -110px;
   padding: 15px;
-  width: 140px;
+  width: 130px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16pt;
   color: whitesmoke;
   opacity: 0.7;
   transition: 0.3s;
@@ -82,43 +83,43 @@ footer {
 }
 
 .iconMenu {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   float: right;
   filter: invert(90%);
 }
 
-#menuLateral a:hover {
+.menuLateral:hover {
   left: 0;
   opacity: 1;
 }
 
-#menuLateral a:active {
+.menuLateral:active {
   filter: saturate(0);
 }
 
 .inicio {
-  top: 170px;
+  top: 200px;
   background-color: rgb(33, 150, 243);
 }
 
 .sobre {
-  top: 230px;
+  top: 265px;
   background-color: rgb(185, 80, 180);
 }
 
 .conteudo {
-  top: 290px;
+  top: 330px;
   background-color: rgb(33, 150, 243);
 }
 
 .contato {
-  top: 350px;
+  top: 395px;
   background-color: rgb(33, 150, 243);
 }
 
 .refers {
-  top: 410px;
+  top: 460px;
   background-color: rgb(33, 150, 243);
 }
 
@@ -132,20 +133,27 @@ footer {
 /* CONTEÚDO */
 #contentBox {
   position: relative;
-  margin-top: 170px;
+  margin-top: 200px;
   margin-left: 0;
   z-index: 9996;
 }
 
 #corpo {
-  top: 170px;
+  top: 200px;
   left: 200px;
 }
 
 .artigo {
-  max-width: 500px;
+  max-width: 650px;
   margin-left: 170px;
-  color: white;
+  color: rgb(241, 248, 255);
+}
+
+p {
+  font-family: monospace;
+  font-size: 12pt;
+  color: lavenderblush;
+  text-align: justify;
 }
 
 #about {
@@ -166,6 +174,19 @@ footer {
   margin-top: 0;
 }
 
+#pisca {
+  font-weight: bold;
+  animation-name: blink;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+@keyframes blink {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 /* RODAPÉ E REFERÊNCIAS */
 #rodape {
   position: relative;
@@ -182,20 +203,29 @@ footer {
 .boxlogo {
   position: relative;
   float: right;
-  clear: none;
-  border: 5px solid green;
   margin-right: 50px;
-  top: 40px;
-  max-width: 500px;
+  margin-top: 30px;
+  max-width: 100px;
+
+}
+
+#linked {
+  width: 30%;
+  margin-left: 10px;
+}
+
+#github {
+  width: 30%;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 #trybe {
-  width: 125px;
-  height: 50px;
+  width: 100%;
+  float: right;
 }
 
 #xp {
-  width: 90px;
-  height: 30px;
+  width: 75%;
   float: right;
 }
