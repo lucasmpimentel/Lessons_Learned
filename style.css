@@ -1,3 +1,4 @@
+/* AQUI ESTÃO AS CONFIGURAÇÕES DE GRID E POSICIONAMENTO */
 body {
   background-color: rgb(253, 251, 251);
   min-height: 100vh;
@@ -14,6 +15,7 @@ footer {
   min-height: 50px;
 }
 
+/* AQUI COMEÇA O CABEÇALHO */
 #cabecalho {
   position: fixed;
   top: 0;
@@ -120,12 +122,14 @@ footer {
   background-color: rgb(33, 150, 243);
 }
 
+/* CONFIG. DO VIDEO PARA BG */
 .videoIntro {
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
+/* CONTEÚDO */
 #contentBox {
   position: relative;
   margin-top: 170px;
@@ -162,6 +166,7 @@ footer {
   margin-top: 0;
 }
 
+/* RODAPÉ E REFERÊNCIAS */
 #rodape {
   position: relative;
   border: 5px solid red;
