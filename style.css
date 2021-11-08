@@ -157,7 +157,7 @@ p {
 }
 
 #about {
-  background-color: rgba(185, 80, 189, 0.75);
+  background-color: rgba(185, 80, 189, 0.85);
   padding: 25px;
   border-radius: 10px;
 }
@@ -175,7 +175,7 @@ p {
 }
 
 #pisca {
-  font-weight: bold;
+  font-weight: 900;
   animation-name: blink;
   animation-duration: 800ms;
   animation-iteration-count: infinite;
@@ -183,7 +183,9 @@ p {
 }
 
 @keyframes blink {
+
   from { opacity: 1; }
+
   to { opacity: 0; }
 }
 
