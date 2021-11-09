@@ -144,17 +144,13 @@ footer {
   max-width: 1366px;
 }
 
-#boxArtigo {
-  margin-bottom: 10px;
-}
-
 .lado-esquerdo {
   float: left;
 }
 
 .lado-direito {
   float: right;
-  width: 20%
+  width: 20%;
 }
 
 .me {
@@ -171,6 +167,7 @@ footer {
 #about {
   max-width: 650px;
   margin-left: 170px;
+  margin-bottom: 90px;
   color: rgb(241, 248, 255);
   line-height: 20px;
   background-color: rgba(185, 80, 189, 0.85);
@@ -178,20 +175,45 @@ footer {
   border-radius: 10px;
 }
 
+#sobre_mim {
+  margin-top: 25px;
+}
+
+#passagem {
+  clear: both;
+  max-width: 300px;
+  margin-left: 870px;
+  margin-bottom: 90px;
+  color: rgb(241, 248, 255);
+  line-height: 20px;
+  background-color: rgba(33, 150, 243, 0.85);
+  padding: 25px;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
 #content {
   clear: both;
-  position: relative;
-  top: 100px;
-  background-color: yellow;
+  max-width: 650px;
+  margin-left: 170px;
+  margin-bottom: 90px;
+  color: rgb(241, 248, 255);
+  line-height: 20px;
+  background-color: rgba(33, 150, 243, 0.85);
+  padding: 25px;
+  border-radius: 10px;
 }
 
 .tituloDoArtigo {
   font-family: bangers, cursive;
   font-size: 42pt;
-  margin-top: 0;
+  line-height: 40pt;
+  margin-top: 25px;
+  margin-bottom: -5pt;
+  letter-spacing: .2rem;
 }
 
-#pisca {
+.pisca {
   font-weight: 900;
   animation-name: blink;
   animation-duration: 800ms;
@@ -206,16 +228,51 @@ footer {
   to { opacity: 0; }
 }
 
+#tabela {
+  text-align: center;
+}
+
+h3 {
+  font-family: mohave, sans-serif;
+  margin-bottom: 0;
+  font-size: 24pt;
+}
+
+#licoes_aprendidas {
+  font-family: monospace;
+}
+
+#licoes_a_aprender {
+  font-family: monospace;
+}
+
 /* RODAPÉ E REFERÊNCIAS */
 #rodape {
   position: relative;
-  border: 5px solid violet;
   color: rgb(253, 251, 251);
-  background-color: rgb(0, 29, 34);
-  height: 200px;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 370px;
+  padding: 100px;
+  clear: both;
   z-index: 9999;
+}
 
-  /* display: none; */
+#contact {
+  float: left;
+  margin-left: 170px;
+  top: 0pt;
+  max-width: 500px;
+  font-size: 14pt;
+}
+
+.autores {
+  font-family: monospace;
+  font-size: 10pt;
+}
+
+#linkscontatos {
+  font-family: monospace;
+  font-size: 12pt;
 }
 
 /* LOGOMARCAS */
@@ -225,7 +282,11 @@ footer {
   margin-right: 50px;
   margin-top: 30px;
   max-width: 100px;
+}
 
+.boxlogotrybe {
+  max-width: 200px;
+  float: right;
 }
 
 #linked {
@@ -242,6 +303,7 @@ footer {
 #trybe {
   width: 100%;
   float: right;
+  filter: brightness(2);
 }
 
 #xp {
